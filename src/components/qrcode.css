@@ -1,0 +1,43 @@
+.qr_code_input_group_form > div {
+  display: flex;
+}
+
+.qr_code_input_group_container {
+  display: inline;
+  flex-wrap: wrap;
+}
+.qr_code_label {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.qr_code_label_input {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 20px;
+  outline: none;
+  border: 2px solid;
+  width: 40%;
+}
+.qr_code_label_button {
+  padding: 0.7rem 1rem;
+  border: 2px solid;
+  border-radius: 50px;
+  font: 1em sans-serif;
+  cursor: pointer;
+  background-color: #fff;
+  color: blue;
+  transition: 0.4s ease-in;
+}
+
+.qr_code_label_button:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .qr_code_label_input {
+    width: 60%;
+  }
+}
